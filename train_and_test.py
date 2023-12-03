@@ -1,6 +1,3 @@
-Certainly! Here's the modified Python code with comments in English:
-
-```python
 import cv2
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -87,6 +84,3 @@ double_path_model.fit([x_train[:, :, :, :3], x_train[:, :, :, 3:]], y_train, epo
 # Evaluate the model on the test set
 test_loss, test_accuracy = double_path_model.evaluate([x_test[:, :, :, :3], x_test[:, :, :, 3:]], y_test)
 print(f"Test Loss: {test_loss}, Test Accuracy: {test_accuracy}")
-```
-
-This code includes comments in English to explain the functionality and purpose of each section. If you have any specific questions or need further clarification, feel free to ask!
