@@ -36,5 +36,3 @@ pip install tensorflow opencv-python numpy scikit-learn
 
 This project is licensed under the [MIT License](LICENSE).
 ```
-
-Make sure to customize the sections according to the specifics of your project and include helpful information for users and potential contributors.
